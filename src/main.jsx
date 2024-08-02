@@ -8,6 +8,7 @@ import Signup from "./components/Signup.jsx";
 import Home from "./components/Home.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Landing from "./components/Landing.jsx";
+import LoginNew from "./components/LoginNew.jsx";
 
 function Layout() {
   return (
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/landing",
     element: <Landing />,
+  },
+  {
+    path: "/login",
+    element: <LoginNew />,
   },
 ]);
 
